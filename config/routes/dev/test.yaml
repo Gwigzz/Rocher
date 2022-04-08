@@ -1,0 +1,11 @@
+# test:
+#   # entre chevron => requirements/ apres le ? => defautl
+#   path: /test/{age<\d+>?0}
+#   controller: App\Controller\TestController::test
+#   methods: [GET,POST]
+#   host: [localhost,https://127.0.0.1:8000/]
+#   schemes: [https,http]
+#   # defaults:
+#   #   age: 0
+#   # requirements: 
+#   #   age: \d+
